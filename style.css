@@ -1,0 +1,48 @@
+/* * {
+  margin: 0;
+} */
+
+/* NAVBAR STYLE STARTS */
+header {
+  /* height: 837px; */
+  background: #FFF8F3;
+  background-image: url('images/developer.png'), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-display {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav>ul a {
+  text-decoration: none;
+}
+
+/* HEADER CONTENTS STYLE STARTS  */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content,
+.navbar {
+  margin-left: 230px;
+}
+
+.navbar {
+  margin-right: 230px;
+}
