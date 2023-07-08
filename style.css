@@ -158,7 +158,6 @@ main {
   margin-bottom: 20px;
 }
 
-.edu-exp-head,
 .edu-exp-1,
 .edu-exp-2,
 .edu-exp-3 {
@@ -169,9 +168,11 @@ main {
   padding: 7px;
 }
 
-.exp-head {
+/* .exp-head {
   text-align: left;
-}
+  background-color: #FD6E0A;
+  justify-content: space-between;
+} */
 
 .footer-all {
   margin-top: 70px;
