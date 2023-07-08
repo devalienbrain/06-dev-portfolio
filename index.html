@@ -32,7 +32,7 @@
             Blog
           </a>
         </li>
-        <input type="button" value="Hire Me">
+        <input class="common-btn" type="button" value="Hire Me">
       </ul>
     </nav>
     <!-- NAVBAR ENDS -->
@@ -44,11 +44,11 @@
         <h1>Mary Hardy</h1>
         <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved
           moments.</p>
-        <button>
-          Download CV
+        <button class="common-btn">
+          <img width="15px" src="icons/download.png" alt="down-icon"> Download CV
         </button>
-        <button>
-          Contact
+        <button class="common-btn">
+          <img width="15px" src="icons/telephone.png" alt="phone-icon"> Contact
         </button>
       </div>
       <img width="550px" src="images/hardy.png" alt="Hardy Vhai">
@@ -74,13 +74,17 @@
       </p>
       <div class="info-container">
         <p>Name: <br>
-          Mary Hardy</p>
+          <strong>Mary Hardy</strong>
+        </p>
         <p>Email: <br>
-          info@gmail.com</p>
+          <strong>info@gmail.com</strong>
+        </p>
         <p>Date of birth: <br>
-          11 November 1987</p>
+          <strong>11 November 1987</strong>
+        </p>
         <p>From: <br>
-          Los Angeles, USA</p>
+          <strong>Los Angeles, USA</strong>
+        </p>
       </div>
     </section>
     <!-- ABOUT ME SECTION ENDS -->
@@ -99,24 +103,28 @@
       </p>
       <div class="skill-container">
         <div class="skill-box">
+          <img src="icons/js.png" alt="js">
           <h5>Vanilla JavaScript</h5>
           <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
             available.
             Aenean commodo ligula eget dolor.</p>
         </div>
         <div class="skill-box">
+          <img src="icons/react.png" alt="">
           <h5>React</h5>
           <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
             available.
             Aenean commodo ligula eget dolor.</p>
         </div>
         <div class="skill-box">
+          <img src="icons/nodejs.png" alt="">
           <h5>Node.js</h5>
           <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
             available.
             Aenean commodo ligula eget dolor.</p>
         </div>
         <div class="skill-box">
+          <img src="icons/mongo.png" alt="">
           <h5>MongoDB</h5>
           <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons
             available.
@@ -183,28 +191,36 @@
           </div>
         </div>
       </div>
-      <button>Download CV</button>
+      <button class="common-btn"><img width="15px" src="icons/download.png" alt="down-icon"> Download CV</button>
     </section>
   </main>
   <!-- MAIN BODY ENDS -->
 
   <!-- FOOTER STARTS -->
-  <footer>
+  <footer class="footer-all">
     <section class="foot-section">
-      <div>
+      <div class="foot-section-items">
         <h2>Lets Connect</h2>
-        <small>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET,
+        <small>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M
+          ET,
           Monday through
-          Friday.</small>
+          Friday.</small> <br> <br>
+        <img src="icons/facebook.png" alt="fb">
+        <img src="icons/twitter.png" alt="twit">
+        <img src="icons/insta.png" alt="insta">
       </div>
-      <div>
+      <div class="foot-section-items">
         <h2>Let’s Message me</h2>
+
         <form action="">
-          <input type="text" name="" id=""> <br>
-          <input type="email" name="" id="">
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input placeholder="Your name" type="text" name="" id=""> <br>
+
+          <input placeholder="Your email" type="email" name="" id="">
+
+          <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
         </form>
-        <button>Submit</button>
+
+        <button class="common-btn">Submit</button>
       </div>
 
     </section>
